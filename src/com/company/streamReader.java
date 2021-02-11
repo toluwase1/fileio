@@ -23,11 +23,12 @@ public class streamReader {
 //        FileInputStream fis = new FileInputStream("file.txt");
         FileReader fileReader =  new FileReader("text.txt");
         int variable = fileReader.read();
-
         while ((variable)!=-1) {
             System.out.print((char) variable);
             variable=fileReader.read();
+
         }
+
 
 
 //        fileWriter.close();
